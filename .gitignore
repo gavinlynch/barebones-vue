@@ -1,0 +1,28 @@
+# always-ignore extensions
+*.diff
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.swm
+*.swn
+*.vi
+*.sass-cache
+
+# os or editor folders
+.DS_Store
+Thumbs.db
+.cache
+
+# package manager
+node_modules
+bower_components
+
+# compiled css and js map files
+*.css.map
+*.js.map
+
+# auto build assets
+public/js/dist
+public/scss/lib
